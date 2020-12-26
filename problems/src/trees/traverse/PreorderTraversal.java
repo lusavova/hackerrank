@@ -3,7 +3,7 @@
 package trees.traverse;
 
 class PreorderTraversal {
-    static void preOrder(Node root) {
+    public void preOrder(Node root) {
         System.out.print(root.data + " ");
 
         if (root.left != null)

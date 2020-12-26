@@ -3,7 +3,7 @@
 package trees.traverse;
 
 class PostorderTraversal {
-    static void postOrder(Node root) {
+    public void postOrder(Node root) {
         if (root.left != null)
             postOrder(root.left);
         if (root.right != null)
